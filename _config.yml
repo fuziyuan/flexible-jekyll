@@ -33,6 +33,9 @@ plugins:
   - jekyll-paginate
   - jemoji
 
+# music
+music-id: 2024065928
+
 paginate: 8
 paginate_path: "/page/:num"
 

@@ -13,6 +13,7 @@ layout: main
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
         <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=270 src="//music.163.com/outchain/player?type=0&id={{ site.music-id }}&auto=0&height=430"></iframe>
       </header>
       {{page.content | markdownify}}
       <div class="page-footer">
